@@ -1,0 +1,16 @@
+{
+  "slug": "letter-combinations-of-a-phone-number",
+  "title": "Letter Combinations of a Phone Number",
+  "question_id": "17",
+  "difficulty": "Medium",
+  "statement": "Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent. Return the answer in **any order**.\n\nA mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** digits = \"23\"\n**Output:** [\"ad\",\"ae\",\"af\",\"bd\",\"be\",\"bf\",\"cd\",\"ce\",\"cf\"]\n\n```\n\nExample 2:\n\n```\n\n**Input:** digits = \"2\"\n**Output:** [\"a\",\"b\",\"c\"]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def letterCombinations(self, digits: str) -> list[str]:\n        ",
+  "class_name": "Solution",
+  "method_name": "letterCombinations",
+  "sample_test_case": "\"23\"",
+  "example_testcases": [
+    "\"23\"",
+    "\"2\""
+  ],
+  "meta_data": "{ \r\n  \"name\": \"letterCombinations\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"digits\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}"
+}

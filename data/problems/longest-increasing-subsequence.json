@@ -1,0 +1,17 @@
+{
+  "slug": "longest-increasing-subsequence",
+  "title": "Longest Increasing Subsequence",
+  "question_id": "300",
+  "difficulty": "Medium",
+  "statement": "Given an integer array `nums`, return the length of the longest **strictly increasing ****subsequence**.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [10,9,2,5,3,7,101,18]\n**Output:** 4\n**Explanation:** The longest increasing subsequence is [2,3,7,101], therefore the length is 4.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [0,1,0,3,2,3]\n**Output:** 4\n\n```\n\nExample 3:\n\n```\n\n**Input:** nums = [7,7,7,7,7,7,7]\n**Output:** 1\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4 4`\n\n\u00a0\n\nFollow up:\u00a0Can you come up with an algorithm that runs in\u00a0`O(n log(n))` time complexity?",
+  "starter_code": "class Solution:\n    def lengthOfLIS(self, nums: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "lengthOfLIS",
+  "sample_test_case": "[10,9,2,5,3,7,101,18]",
+  "example_testcases": [
+    "[10,9,2,5,3,7,101,18]",
+    "[0,1,0,3,2,3]",
+    "[7,7,7,7,7,7,7]"
+  ],
+  "meta_data": "{\n  \"name\": \"lengthOfLIS\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}"
+}

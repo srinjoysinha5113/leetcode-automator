@@ -1,0 +1,16 @@
+{
+  "slug": "partition-equal-subset-sum",
+  "title": "Partition Equal Subset Sum",
+  "question_id": "416",
+  "difficulty": "Medium",
+  "statement": "Given an integer array `nums`, return `true` if you can partition the array into two subsets such that the sum of the elements in both subsets is equal or `false` otherwise.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [1,5,11,5]\n**Output:** true\n**Explanation:** The array can be partitioned as [1, 5, 5] and [11].\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [1,2,3,5]\n**Output:** false\n**Explanation:** The array cannot be partitioned into equal sum subsets.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def canPartition(self, nums: list[int]) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "canPartition",
+  "sample_test_case": "[1,5,11,5]",
+  "example_testcases": [
+    "[1,5,11,5]",
+    "[1,2,3,5]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"canPartition\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

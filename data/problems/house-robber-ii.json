@@ -1,0 +1,17 @@
+{
+  "slug": "house-robber-ii",
+  "title": "House Robber II",
+  "question_id": "213",
+  "difficulty": "Medium",
+  "statement": "You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are **arranged in a circle.** That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and\u00a0it will automatically contact the police if two adjacent houses were broken into on the same night.\n\nGiven an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight **without alerting the police**.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [2,3,2]\n**Output:** 3\n**Explanation:** You cannot rob house 1 (money = 2) and then rob house 3 (money = 2), because they are adjacent houses.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [1,2,3,1]\n**Output:** 4\n**Explanation:** Rob house 1 (money = 1) and then rob house 3 (money = 3).\nTotal amount you can rob = 1 + 3 = 4.\n\n```\n\nExample 3:\n\n```\n\n**Input:** nums = [1,2,3]\n**Output:** 3\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def rob(self, nums: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "rob",
+  "sample_test_case": "[2,3,2]",
+  "example_testcases": [
+    "[2,3,2]",
+    "[1,2,3,1]",
+    "[1,2,3]"
+  ],
+  "meta_data": "{\n  \"name\": \"rob\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": false\n}"
+}

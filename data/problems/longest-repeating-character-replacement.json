@@ -1,0 +1,16 @@
+{
+  "slug": "longest-repeating-character-replacement",
+  "title": "Longest Repeating Character Replacement",
+  "question_id": "424",
+  "difficulty": "Medium",
+  "statement": "You are given a string `s` and an integer `k`. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most `k` times.\n\nReturn the length of the longest substring containing the same letter you can get after performing the above operations.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"ABAB\", k = 2\n**Output:** 4\n**Explanation:** Replace the two 'A's with two 'B's or vice versa.\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"AABABBA\", k = 1\n**Output:** 4\n**Explanation:** Replace the one 'A' in the middle with 'B' and form \"AABBBBA\".\nThe substring \"BBBB\" has the longest repeating letters, which is 4.\nThere may exists other ways to achieve this answer too.\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 5`\n\t\n* `s` consists of only uppercase English letters.\n\t\n* `0",
+  "starter_code": "class Solution:\n    def characterReplacement(self, s: str, k: int) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "characterReplacement",
+  "sample_test_case": "\"ABAB\"\n2",
+  "example_testcases": [
+    "\"ABAB\"\n2",
+    "\"AABABBA\"\n1"
+  ],
+  "meta_data": "{ \r\n  \"name\": \"characterReplacement\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n        \"name\": \"k\",\r\n        \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

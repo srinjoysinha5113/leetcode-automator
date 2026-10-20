@@ -1,0 +1,16 @@
+{
+  "slug": "trapping-rain-water",
+  "title": "Trapping Rain Water",
+  "question_id": "42",
+  "difficulty": "Hard",
+  "statement": "Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** height = [0,1,0,2,1,0,1,3,2,1,2,1]\n**Output:** 6\n**Explanation:** The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.\n\n```\n\nExample 2:\n\n```\n\n**Input:** height = [4,2,0,3,2,5]\n**Output:** 9\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `n == height.length`\n\t\n* `1 4`\n\t\n* `0 5`",
+  "starter_code": "class Solution:\n    def trap(self, height: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "trap",
+  "sample_test_case": "[0,1,0,2,1,0,1,3,2,1,2,1]",
+  "example_testcases": [
+    "[0,1,0,2,1,0,1,3,2,1,2,1]",
+    "[4,2,0,3,2,5]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"trap\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"height\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

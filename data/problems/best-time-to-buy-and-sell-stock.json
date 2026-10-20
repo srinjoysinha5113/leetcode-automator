@@ -1,0 +1,16 @@
+{
+  "slug": "best-time-to-buy-and-sell-stock",
+  "title": "Best Time to Buy and Sell Stock",
+  "question_id": "121",
+  "difficulty": "Easy",
+  "statement": "You are given an array `prices` where `prices[i]` is the price of a given stock on the `ith` day.\n\nYou want to maximize your profit by choosing a **single day** to buy one stock and choosing a **different day in the future** to sell that stock.\n\nReturn the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return `0`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** prices = [7,1,5,3,6,4]\n**Output:** 5\n**Explanation:** Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.\nNote that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.\n\n```\n\nExample 2:\n\n```\n\n**Input:** prices = [7,6,4,3,1]\n**Output:** 0\n**Explanation:** In this case, no transactions are done and the max profit = 0.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 5`\n\t\n* `0 4`",
+  "starter_code": "class Solution:\n    def maxProfit(self, prices: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "maxProfit",
+  "sample_test_case": "[7,1,5,3,6,4]",
+  "example_testcases": [
+    "[7,1,5,3,6,4]",
+    "[7,6,4,3,1]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"maxProfit\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"prices\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

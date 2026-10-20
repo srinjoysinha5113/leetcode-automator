@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Secrets and Local Environment
+.env
+.env.local
+
+# Browser Profiles and Authentication Data (CRITICAL)
+data/browser_profile/
+*.session
+*.cookie
+
+# Database and SQLite
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+
+# Logs and Runtime Artefacts
+logs/
+*.log
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor Settings
+.vscode/
+.idea/
+*.swp

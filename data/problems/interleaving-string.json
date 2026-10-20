@@ -1,0 +1,17 @@
+{
+  "slug": "interleaving-string",
+  "title": "Interleaving String",
+  "question_id": "97",
+  "difficulty": "Medium",
+  "statement": "Given strings `s1`, `s2`, and `s3`, find whether `s3` is formed by an **interleaving** of `s1` and `s2`.\n\nAn **interleaving** of two strings `s` and `t` is a configuration where `s` and `t` are divided into `n` and `m` substrings respectively, such that:\n\n\t\n* `s = s1 + s2 + ... + sn`\n\t\n* `t = t1 + t2 + ... + tm`\n\t\n* `|n - m| 1 + t1 + s2 + t2 + s3 + t3 + ...` or `t1 + s1 + t2 + s2 + t3 + s3 + ...`\n\n**Note:** `a + b` is the concatenation of strings `a` and `b`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s1 = \"aabcc\", s2 = \"dbbca\", s3 = \"aadbbcbcac\"\n**Output:** true\n**Explanation:** One way to obtain s3 is:\nSplit s1 into s1 = \"aa\" + \"bc\" + \"c\", and s2 into s2 = \"dbbc\" + \"a\".\nInterleaving the two splits, we get \"aa\" + \"dbbc\" + \"bc\" + \"a\" + \"c\" = \"aadbbcbcac\".\nSince s3 can be obtained by interleaving s1 and s2, we return true.\n\n```\n\nExample 2:\n\n```\n\n**Input:** s1 = \"aabcc\", s2 = \"dbbca\", s3 = \"aadbbbaccc\"\n**Output:** false\n**Explanation:** Notice how it is impossible to interleave s2 with any other string to obtain s3.\n\n```\n\nExample 3:\n\n```\n\n**Input:** s1 = \"\", s2 = \"\", s3 = \"\"\n**Output:** true\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `0 \n\n\u00a0\n\n**Follow up:** Could you solve it using only `O(s2.length)` additional memory space?",
+  "starter_code": "class Solution:\n    def isInterleave(self, s1: str, s2: str, s3: str) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "isInterleave",
+  "sample_test_case": "\"aabcc\"\n\"dbbca\"\n\"aadbbcbcac\"",
+  "example_testcases": [
+    "\"aabcc\"\n\"dbbca\"\n\"aadbbcbcac\"",
+    "\"aabcc\"\n\"dbbca\"\n\"aadbbbaccc\"",
+    "\"\"\n\"\"\n\"\""
+  ],
+  "meta_data": "{ \r\n  \"name\": \"isInterleave\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s1\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"s2\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"s3\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

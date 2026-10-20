@@ -1,0 +1,16 @@
+{
+  "slug": "maximum-depth-of-binary-tree",
+  "title": "Maximum Depth of Binary Tree",
+  "question_id": "104",
+  "difficulty": "Easy",
+  "statement": "Given the `root` of a binary tree, return its maximum depth.\n\nA binary tree's **maximum depth**\u00a0is the number of nodes along the longest path from the root node down to the farthest leaf node.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** root = [3,9,20,null,null,15,7]\n**Output:** 3\n\n```\n\nExample 2:\n\n```\n\n**Input:** root = [1,null,2]\n**Output:** 2\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the tree is in the range `[0, 104]`.\n\t\n* `-100",
+  "starter_code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def maxDepth(self, root: TreeNode | None) -> int:\n        ",
+  "class_name": "TreeNode",
+  "method_name": "__init__",
+  "sample_test_case": "[3,9,20,null,null,15,7]",
+  "example_testcases": [
+    "[3,9,20,null,null,15,7]",
+    "[1,null,2]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"maxDepth\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

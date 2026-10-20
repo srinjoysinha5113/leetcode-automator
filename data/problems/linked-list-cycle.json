@@ -1,0 +1,17 @@
+{
+  "slug": "linked-list-cycle",
+  "title": "Linked List Cycle",
+  "question_id": "141",
+  "difficulty": "Easy",
+  "statement": "Given `head`, the head of a linked list, determine if the linked list has a cycle in it.\n\nThere is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the\u00a0`next`\u00a0pointer. Internally, `pos`\u00a0is used to denote the index of the node that\u00a0tail's\u00a0`next`\u00a0pointer is connected to.\u00a0**Note that\u00a0`pos`\u00a0is not passed as a parameter**.\n\nReturn\u00a0`true` if there is a cycle in the linked list. Otherwise, return `false`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** head = [3,2,0,-4], pos = 1\n**Output:** true\n**Explanation:** There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).\n\n```\n\nExample 2:\n\n```\n\n**Input:** head = [1,2], pos = 0\n**Output:** true\n**Explanation:** There is a cycle in the linked list, where the tail connects to the 0th node.\n\n```\n\nExample 3:\n\n```\n\n**Input:** head = [1], pos = -1\n**Output:** false\n**Explanation:** There is no cycle in the linked list.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of the nodes in the list is in the range `[0, 104]`.\n\t\n* `-105 5`\n\t\n* `pos` is `-1` or a **valid index** in the linked-list.\n\n\u00a0\n\n**Follow up:** Can you solve it using `O(1)` (i.e. constant) memory?",
+  "starter_code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.next = None\n\nclass Solution:\n    def hasCycle(self, head: Optional[ListNode]) -> bool:\n        ",
+  "class_name": "ListNode",
+  "method_name": "__init__",
+  "sample_test_case": "[3,2,0,-4]\n1",
+  "example_testcases": [
+    "[3,2,0,-4]\n1",
+    "[1,2]\n0",
+    "[1]\n-1"
+  ],
+  "meta_data": "{\n  \"name\": \"hasCycle\",\n  \"params\": [\n    {\n      \"name\": \"head\",\n      \"type\": \"ListNode\"\n    },\n    {\n      \"name\": \"pos\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"manual\": true,\n  \"languages\": [\n    \"cpp\",\n    \"java\",\n    \"python\",\n    \"c\",\n    \"csharp\",\n    \"javascript\",\n    \"ruby\",\n    \"swift\",\n    \"golang\",\n    \"python3\",\n    \"scala\",\n    \"kotlin\",\n    \"php\",\n    \"typescript\"\n  ]\n}"
+}

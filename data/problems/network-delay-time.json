@@ -1,0 +1,17 @@
+{
+  "slug": "network-delay-time",
+  "title": "Network Delay Time",
+  "question_id": "743",
+  "difficulty": "Medium",
+  "statement": "You are given a network of `n` nodes, labeled from `1` to `n`. You are also given `times`, a list of travel times as directed edges `times[i] = (ui, vi, wi)`, where `ui` is the source node, `vi` is the target node, and `wi` is the time it takes for a signal to travel from source to target.\n\nWe will send a signal from a given node `k`. Return the **minimum** time it takes for all the `n` nodes to receive the signal. If it is impossible for all the `n` nodes to receive the signal, return `-1`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2\n**Output:** 2\n\n```\n\nExample 2:\n\n```\n\n**Input:** times = [[1,2,1]], n = 2, k = 1\n**Output:** 1\n\n```\n\nExample 3:\n\n```\n\n**Input:** times = [[1,2,1]], n = 2, k = 2\n**Output:** -1\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 i, vi i != vi`\n\t\n* `0 i i, vi)` are **unique**. (i.e., no multiple edges.)",
+  "starter_code": "class Solution:\n    def networkDelayTime(self, times: list[list[int]], n: int, k: int) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "networkDelayTime",
+  "sample_test_case": "[[2,1,1],[2,3,1],[3,4,1]]\n4\n2",
+  "example_testcases": [
+    "[[2,1,1],[2,3,1],[3,4,1]]\n4\n2",
+    "[[1,2,1]]\n2\n1",
+    "[[1,2,1]]\n2\n2"
+  ],
+  "meta_data": "{\n  \"name\": \"networkDelayTime\",\n  \"params\": [\n    {\n      \"name\": \"times\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  },\n  \"manual\": false\n}"
+}

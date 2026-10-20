@@ -1,0 +1,17 @@
+{
+  "slug": "word-search",
+  "title": "Word Search",
+  "question_id": "79",
+  "difficulty": "Medium",
+  "statement": "Given an `m x n` grid of characters `board` and a string `word`, return `true` if `word` exists in the grid.\n\nThe word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCCED\"\n**Output:** true\n\n```\n\nExample 2:\n\n```\n\n**Input:** board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"SEE\"\n**Output:** true\n\n```\n\nExample 3:\n\n```\n\n**Input:** board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCB\"\n**Output:** false\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `m == board.length`\n\t\n* `n = board[i].length`\n\t\n* `1 \n\n\u00a0\n\n**Follow up:** Could you use search pruning to make your solution faster with a larger `board`?",
+  "starter_code": "class Solution:\n    def exist(self, board: list[list[str]], word: str) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "exist",
+  "sample_test_case": "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"ABCCED\"",
+  "example_testcases": [
+    "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"ABCCED\"",
+    "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"SEE\"",
+    "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]\n\"ABCB\""
+  ],
+  "meta_data": "{\r\n  \"name\": \"exist\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"character[][]\"\r\n    },\r\n    {\r\n      \"name\": \"word\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

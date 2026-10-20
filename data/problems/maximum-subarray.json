@@ -1,0 +1,17 @@
+{
+  "slug": "maximum-subarray",
+  "title": "Maximum Subarray",
+  "question_id": "53",
+  "difficulty": "Medium",
+  "statement": "Given an integer array `nums`, find the subarray with the largest sum, and return its sum.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [-2,1,-3,4,-1,2,1,-5,4]\n**Output:** 6\n**Explanation:** The subarray [4,-1,2,1] has the largest sum 6.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [1]\n**Output:** 1\n**Explanation:** The subarray [1] has the largest sum 1.\n\n```\n\nExample 3:\n\n```\n\n**Input:** nums = [5,4,-1,7,8]\n**Output:** 23\n**Explanation:** The subarray [5,4,-1,7,8] has the largest sum 23.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 5`\n\t\n* `-104 4`\n\n\u00a0\n\n**Follow up:** If you have figured out the `O(n)` solution, try coding another solution using the **divide and conquer** approach, which is more subtle.",
+  "starter_code": "class Solution:\n    def maxSubArray(self, nums: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "maxSubArray",
+  "sample_test_case": "[-2,1,-3,4,-1,2,1,-5,4]",
+  "example_testcases": [
+    "[-2,1,-3,4,-1,2,1,-5,4]",
+    "[1]",
+    "[5,4,-1,7,8]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"maxSubArray\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "max-area-of-island",
+  "title": "Max Area of Island",
+  "question_id": "695",
+  "difficulty": "Medium",
+  "statement": "You are given an `m x n` binary matrix `grid`. An island is a group of `1`'s (representing land) connected **4-directionally** (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water.\n\nThe **area** of an island is the number of cells with a value `1` in the island.\n\nReturn the maximum **area** of an island in `grid`. If there is no island, return `0`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]\n**Output:** 6\n**Explanation:** The answer is not 11, because the island must be connected 4-directionally.\n\n```\n\nExample 2:\n\n```\n\n**Input:** grid = [[0,0,0,0,0,0,0,0]]\n**Output:** 0\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `m == grid.length`\n\t\n* `n == grid[i].length`\n\t\n* `1",
+  "starter_code": "class Solution:\n    def maxAreaOfIsland(self, grid: list[list[int]]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "maxAreaOfIsland",
+  "sample_test_case": "[[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]",
+  "example_testcases": [
+    "[[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]",
+    "[[0,0,0,0,0,0,0,0]]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"maxAreaOfIsland\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n"
+}

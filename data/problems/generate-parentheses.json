@@ -1,0 +1,16 @@
+{
+  "slug": "generate-parentheses",
+  "title": "Generate Parentheses",
+  "question_id": "22",
+  "difficulty": "Medium",
+  "statement": "Given `n` pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\n\n\u00a0\n\nExample 1:\n\n```\n**Input:** n = 3\n**Output:** [\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]\n\n```\nExample 2:\n\n```\n**Input:** n = 1\n**Output:** [\"()\"]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def generateParenthesis(self, n: int) -> list[str]:\n        ",
+  "class_name": "Solution",
+  "method_name": "generateParenthesis",
+  "sample_test_case": "3",
+  "example_testcases": [
+    "3",
+    "1"
+  ],
+  "meta_data": "{\r\n  \"name\": \"generateParenthesis\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<string>\"\r\n  }\r\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "last-stone-weight",
+  "title": "Last Stone Weight",
+  "question_id": "1046",
+  "difficulty": "Easy",
+  "statement": "You are given an array of integers `stones` where `stones[i]` is the weight of the `ith` stone.\n\nWe are playing a game with the stones. On each turn, we choose the **heaviest two stones** and smash them together. Suppose the heaviest two stones have weights `x` and `y` with `x \n\t\n* If `x == y`, both stones are destroyed, and\n\t\n* If `x != y`, the stone of weight `x` is destroyed, and the stone of weight `y` has new weight `y - x`.\n\nAt the end of the game, there is **at most one** stone left.\n\nReturn the weight of the last remaining stone. If there are no stones left, return `0`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** stones = [2,7,4,1,8,1]\n**Output:** 1\n**Explanation:** \nWe combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,\nwe combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,\nwe combine 2 and 1 to get 1 so the array converts to [1,1,1] then,\nwe combine 1 and 1 to get 0 so the array converts to [1] then that's the value of the last stone.\n\n```\n\nExample 2:\n\n```\n\n**Input:** stones = [1]\n**Output:** 1\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def lastStoneWeight(self, stones: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "lastStoneWeight",
+  "sample_test_case": "[2,7,4,1,8,1]",
+  "example_testcases": [
+    "[2,7,4,1,8,1]",
+    "[1]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"lastStoneWeight\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"stones\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n"
+}

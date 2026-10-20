@@ -1,0 +1,16 @@
+{
+  "slug": "palindrome-partitioning",
+  "title": "Palindrome Partitioning",
+  "question_id": "131",
+  "difficulty": "Medium",
+  "statement": "Given a string `s`, partition `s` such that every substring of the partition is a **palindrome**. Return all possible palindrome partitioning of `s`.\n\n\u00a0\n\nExample 1:\n\n```\n**Input:** s = \"aab\"\n**Output:** [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]\n\n```\nExample 2:\n\n```\n**Input:** s = \"a\"\n**Output:** [[\"a\"]]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def partition(self, s: str) -> list[list[str]]:\n        ",
+  "class_name": "Solution",
+  "method_name": "partition",
+  "sample_test_case": "\"aab\"",
+  "example_testcases": [
+    "\"aab\"",
+    "\"a\""
+  ],
+  "meta_data": "{\r\n  \"name\": \"partition\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\",\r\n    \"dealloc\": true\r\n  }\r\n}"
+}

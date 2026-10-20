@@ -1,0 +1,16 @@
+{
+  "slug": "min-cost-to-connect-all-points",
+  "title": "Min Cost to Connect All Points",
+  "question_id": "1584",
+  "difficulty": "Medium",
+  "statement": "You are given an array `points` representing integer coordinates of some points on a 2D-plane, where `points[i] = [xi, yi]`.\n\nThe cost of connecting two points `[xi, yi]` and `[xj, yj]` is the **manhattan distance** between them: `|xi - xj| + |yi - yj|`, where `|val|` denotes the absolute value of `val`.\n\nReturn the minimum cost to make all points connected. All points are connected if there is **exactly one** simple path between any two points.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** points = [[0,0],[2,2],[3,10],[5,2],[7,0]]\n**Output:** 20\n**Explanation:** \n\nWe can connect the points as shown above to get the minimum cost of 20.\nNotice that there is a unique path between every pair of points.\n\n```\n\nExample 2:\n\n```\n\n**Input:** points = [[3,12],[-2,5],[-4,1]]\n**Output:** 18\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 6 i, yi 6`\n\t\n* All pairs `(xi, yi)` are distinct.",
+  "starter_code": "class Solution:\n    def minCostConnectPoints(self, points: list[list[int]]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "minCostConnectPoints",
+  "sample_test_case": "[[0,0],[2,2],[3,10],[5,2],[7,0]]",
+  "example_testcases": [
+    "[[0,0],[2,2],[3,10],[5,2],[7,0]]",
+    "[[3,12],[-2,5],[-4,1]]"
+  ],
+  "meta_data": "{\n  \"name\": \"minCostConnectPoints\",\n  \"params\": [\n    {\n      \"name\": \"points\",\n      \"type\": \"integer[][]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}"
+}

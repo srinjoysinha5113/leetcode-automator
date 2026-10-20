@@ -1,0 +1,17 @@
+{
+  "slug": "two-sum",
+  "title": "Two Sum",
+  "question_id": "1",
+  "difficulty": "Easy",
+  "statement": "You are given an array of integers `nums`\u00a0and an integer `target`, return indices of the two numbers such that they add up to `target`.\n\nYou may assume that each input would have **exactly one solution**, and you may not use the same element twice.\n\nYou can return the answer in any order.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [2,7,11,15], target = 9\n**Output:** [0,1]\n**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [3,2,4], target = 6\n**Output:** [1,2]\n\n```\n\nExample 3:\n\n```\n\n**Input:** nums = [3,3], target = 6\n**Output:** [0,1]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `2 4`\n\t\n* `-109 9`\n\t\n* `-109 9`\n\t\n* **Only one valid answer exists.**\n\n\u00a0\n\n**Follow-up:\u00a0**Can you come up with an algorithm that is less than `O(n2)`\u00a0time complexity?",
+  "starter_code": "class Solution:\n    def twoSum(self, nums: list[int], target: int) -> list[int]:\n        ",
+  "class_name": "Solution",
+  "method_name": "twoSum",
+  "sample_test_case": "[2,7,11,15]\n9",
+  "example_testcases": [
+    "[2,7,11,15]\n9",
+    "[3,2,4]\n6",
+    "[3,3]\n6"
+  ],
+  "meta_data": "{\n  \"name\": \"twoSum\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"target\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\",\n    \"size\": 2\n  },\n  \"manual\": false\n}"
+}

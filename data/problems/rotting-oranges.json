@@ -1,0 +1,17 @@
+{
+  "slug": "rotting-oranges",
+  "title": "Rotting Oranges",
+  "question_id": "994",
+  "difficulty": "Medium",
+  "statement": "You are given an `m x n` `grid` where each cell can have one of three values:\n\n\t\n* `0` representing an empty cell,\n\t\n* `1` representing a fresh orange, or\n\t\n* `2` representing a rotten orange.\n\nEvery minute, any fresh orange that is **4-directionally adjacent** to a rotten orange becomes rotten.\n\nReturn the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return `-1`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** grid = [[2,1,1],[1,1,0],[0,1,1]]\n**Output:** 4\n\n```\n\nExample 2:\n\n```\n\n**Input:** grid = [[2,1,1],[0,1,1],[1,0,1]]\n**Output:** -1\n**Explanation:** The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.\n\n```\n\nExample 3:\n\n```\n\n**Input:** grid = [[0,2]]\n**Output:** 0\n**Explanation:** Since there are already no fresh oranges at minute 0, the answer is just 0.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `m == grid.length`\n\t\n* `n == grid[i].length`\n\t\n* `1",
+  "starter_code": "class Solution:\n    def orangesRotting(self, grid: list[list[int]]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "orangesRotting",
+  "sample_test_case": "[[2,1,1],[1,1,0],[0,1,1]]",
+  "example_testcases": [
+    "[[2,1,1],[1,1,0],[0,1,1]]",
+    "[[2,1,1],[0,1,1],[1,0,1]]",
+    "[[0,2]]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"orangesRotting\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"grid\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}\r\n"
+}

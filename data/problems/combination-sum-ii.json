@@ -1,0 +1,16 @@
+{
+  "slug": "combination-sum-ii",
+  "title": "Combination Sum II",
+  "question_id": "40",
+  "difficulty": "Medium",
+  "statement": "Given a collection of candidate numbers (`candidates`) and a target number (`target`), find all unique combinations in `candidates`\u00a0where the candidate numbers sum to `target`.\n\nEach number in `candidates`\u00a0may only be used **once** in the combination.\n\n**Note:**\u00a0The solution set must not contain duplicate combinations.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** candidates = [10,1,2,7,6,1,5], target = 8\n**Output:** \n[\n[1,1,6],\n[1,2,5],\n[1,7],\n[2,6]\n]\n\n```\n\nExample 2:\n\n```\n\n**Input:** candidates = [2,5,2,1,2], target = 5\n**Output:** \n[\n[1,2,2],\n[5]\n]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def combinationSum2(self, candidates: list[int], target: int) -> list[list[int]]:\n        ",
+  "class_name": "Solution",
+  "method_name": "combinationSum2",
+  "sample_test_case": "[10,1,2,7,6,1,5]\n8",
+  "example_testcases": [
+    "[10,1,2,7,6,1,5]\n8",
+    "[2,5,2,1,2]\n5"
+  ],
+  "meta_data": "{\n  \"name\": \"combinationSum2\",\n  \"params\": [\n    {\n      \"name\": \"candidates\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"target\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<list<integer>>\",\n    \"dealloc\": true\n  }\n}"
+}

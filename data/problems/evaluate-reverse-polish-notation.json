@@ -1,0 +1,17 @@
+{
+  "slug": "evaluate-reverse-polish-notation",
+  "title": "Evaluate Reverse Polish Notation",
+  "question_id": "150",
+  "difficulty": "Medium",
+  "statement": "You are given an array of strings `tokens` that represents an arithmetic expression in a Reverse Polish Notation.\n\nEvaluate the expression. Return an integer that represents the value of the expression.\n\n**Note** that:\n\n\t\n* The valid operators are `'+'`, `'-'`, `'*'`, and `'/'`.\n\t\n* Each operand may be an integer or another expression.\n\t\n* The division between two integers always **truncates toward zero**.\n\t\n* There will not be any division by zero.\n\t\n* The input represents a valid arithmetic expression in a reverse polish notation.\n\t\n* The answer and all the intermediate calculations can be represented in a **32-bit** integer.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** tokens = [\"2\",\"1\",\"+\",\"3\",\"*\"]\n**Output:** 9\n**Explanation:** ((2 + 1) * 3) = 9\n\n```\n\nExample 2:\n\n```\n\n**Input:** tokens = [\"4\",\"13\",\"5\",\"/\",\"+\"]\n**Output:** 6\n**Explanation:** (4 + (13 / 5)) = 6\n\n```\n\nExample 3:\n\n```\n\n**Input:** tokens = [\"10\",\"6\",\"9\",\"3\",\"+\",\"-11\",\"*\",\"/\",\"*\",\"17\",\"+\",\"5\",\"+\"]\n**Output:** 22\n**Explanation:** ((10 * (6 / ((9 + 3) * -11))) + 17) + 5\n= ((10 * (6 / (12 * -11))) + 17) + 5\n= ((10 * (6 / -132)) + 17) + 5\n= ((10 * 0) + 17) + 5\n= (0 + 17) + 5\n= 17 + 5\n= 22\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `tokens[i]` is either an operator: `\"+\"`, `\"-\"`, `\"*\"`, or `\"/\"`, or an integer in the range `[-200, 200]`.",
+  "starter_code": "class Solution:\n    def evalRPN(self, tokens: list[str]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "evalRPN",
+  "sample_test_case": "[\"2\",\"1\",\"+\",\"3\",\"*\"]",
+  "example_testcases": [
+    "[\"2\",\"1\",\"+\",\"3\",\"*\"]",
+    "[\"4\",\"13\",\"5\",\"/\",\"+\"]",
+    "[\"10\",\"6\",\"9\",\"3\",\"+\",\"-11\",\"*\",\"/\",\"*\",\"17\",\"+\",\"5\",\"+\"]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"evalRPN\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"tokens\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

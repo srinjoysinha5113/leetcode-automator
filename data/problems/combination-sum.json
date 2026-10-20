@@ -1,0 +1,17 @@
+{
+  "slug": "combination-sum",
+  "title": "Combination Sum",
+  "question_id": "39",
+  "difficulty": "Medium",
+  "statement": "Given an array of **distinct** integers `candidates` and a target integer `target`, return a list of all **unique combinations** of `candidates` where the chosen numbers sum to `target`. You may return the combinations in **any order**.\n\nThe **same** number may be chosen from `candidates` an **unlimited number of times**. Two combinations are unique if the frequency of at least one of the chosen numbers is different.\n\nThe test cases are generated such that the number of unique combinations that sum up to `target` is less than `150` combinations for the given input.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** candidates = [2,3,6,7], target = 7\n**Output:** [[2,2,3],[7]]\n**Explanation:**\n2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.\n7 is a candidate, and 7 = 7.\nThese are the only two combinations.\n\n```\n\nExample 2:\n\n```\n\n**Input:** candidates = [2,3,5], target = 8\n**Output:** [[2,2,2,2],[2,3,3],[3,5]]\n\n```\n\nExample 3:\n\n```\n\n**Input:** candidates = [2], target = 1\n**Output:** []\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:\n        ",
+  "class_name": "Solution",
+  "method_name": "combinationSum",
+  "sample_test_case": "[2,3,6,7]\n7",
+  "example_testcases": [
+    "[2,3,6,7]\n7",
+    "[2,3,5]\n8",
+    "[2]\n1"
+  ],
+  "meta_data": "{\n  \"name\": \"combinationSum\",\n  \"params\": [\n    {\n      \"name\": \"candidates\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"target\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<list<integer>>\",\n    \"dealloc\": true\n  }\n}"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "add-two-numbers",
+  "title": "Add Two Numbers",
+  "question_id": "2",
+  "difficulty": "Medium",
+  "statement": "You are given two **non-empty** linked lists representing two non-negative integers. The digits are stored in **reverse order**, and each of their nodes contains a single digit. Add the two numbers and return the sum\u00a0as a linked list.\n\nYou may assume the two numbers do not contain any leading zero, except the number 0 itself.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** l1 = [2,4,3], l2 = [5,6,4]\n**Output:** [7,0,8]\n**Explanation:** 342 + 465 = 807.\n\n```\n\nExample 2:\n\n```\n\n**Input:** l1 = [0], l2 = [0]\n**Output:** [0]\n\n```\n\nExample 3:\n\n```\n\n**Input:** l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]\n**Output:** [8,9,9,9,0,0,0,1]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in each linked list is in the range `[1, 100]`.\n\t\n* `0",
+  "starter_code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def addTwoNumbers(self, l1: ListNode | None, l2: ListNode | None) -> ListNode | None:\n        ",
+  "class_name": "ListNode",
+  "method_name": "__init__",
+  "sample_test_case": "[2,4,3]\n[5,6,4]",
+  "example_testcases": [
+    "[2,4,3]\n[5,6,4]",
+    "[0]\n[0]",
+    "[9,9,9,9,9,9,9]\n[9,9,9,9]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"addTwoNumbers\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"l1\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    },\r\n    {\r\n      \"name\": \"l2\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "jump-game",
+  "title": "Jump Game",
+  "question_id": "55",
+  "difficulty": "Medium",
+  "statement": "You are given an integer array `nums`. You are initially positioned at the array's **first index**, and each element in the array represents your maximum jump length at that position.\n\nReturn `true` if you can reach the last index, or `false` otherwise.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [2,3,1,1,4]\n**Output:** true\n**Explanation:** Jump 1 step from index 0 to 1, then 3 steps to the last index.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [3,2,1,0,4]\n**Output:** false\n**Explanation:** You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `0 5`",
+  "starter_code": "class Solution:\n    def canJump(self, nums: list[int]) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "canJump",
+  "sample_test_case": "[2,3,1,1,4]",
+  "example_testcases": [
+    "[2,3,1,1,4]",
+    "[3,2,1,0,4]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"canJump\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

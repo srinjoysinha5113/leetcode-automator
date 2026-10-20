@@ -1,0 +1,16 @@
+{
+  "slug": "largest-rectangle-in-histogram",
+  "title": "Largest Rectangle in Histogram",
+  "question_id": "84",
+  "difficulty": "Hard",
+  "statement": "Given an array of integers `heights` representing the histogram's bar height where the width of each bar is `1`, return the area of the largest rectangle in the histogram.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** heights = [2,1,5,6,2,3]\n**Output:** 10\n**Explanation:** The above is a histogram where width of each bar is 1.\nThe largest rectangle is shown in the red area, which has an area = 10 units.\n\n```\n\nExample 2:\n\n```\n\n**Input:** heights = [2,4]\n**Output:** 4\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 5`\n\t\n* `0 4`",
+  "starter_code": "class Solution:\n    def largestRectangleArea(self, heights: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "largestRectangleArea",
+  "sample_test_case": "[2,1,5,6,2,3]",
+  "example_testcases": [
+    "[2,1,5,6,2,3]",
+    "[2,4]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"largestRectangleArea\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"heights\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

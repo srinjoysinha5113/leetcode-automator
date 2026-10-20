@@ -1,0 +1,17 @@
+{
+  "slug": "alien-dictionary",
+  "title": "Alien Dictionary",
+  "question_id": "269",
+  "difficulty": "Hard",
+  "statement": "",
+  "starter_code": null,
+  "class_name": "Solution",
+  "method_name": null,
+  "sample_test_case": "[\"wrt\",\"wrf\",\"er\",\"ett\",\"rftt\"]",
+  "example_testcases": [
+    "[\"wrt\",\"wrf\",\"er\",\"ett\",\"rftt\"]",
+    "[\"z\",\"x\"]",
+    "[\"z\",\"x\",\"z\"]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"alienOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"words\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "word-break",
+  "title": "Word Break",
+  "question_id": "139",
+  "difficulty": "Medium",
+  "statement": "Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` can be segmented into a space-separated sequence of one or more dictionary words.\n\n**Note** that the same word in the dictionary may be reused multiple times in the segmentation.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"leetcode\", wordDict = [\"leet\",\"code\"]\n**Output:** true\n**Explanation:** Return true because \"leetcode\" can be segmented as \"leet code\".\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"applepenapple\", wordDict = [\"apple\",\"pen\"]\n**Output:** true\n**Explanation:** Return true because \"applepenapple\" can be segmented as \"apple pen apple\".\nNote that you are allowed to reuse a dictionary word.\n\n```\n\nExample 3:\n\n```\n\n**Input:** s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]\n**Output:** false\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def wordBreak(self, s: str, wordDict: list[str]) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "wordBreak",
+  "sample_test_case": "\"leetcode\"\n[\"leet\",\"code\"]",
+  "example_testcases": [
+    "\"leetcode\"\n[\"leet\",\"code\"]",
+    "\"applepenapple\"\n[\"apple\",\"pen\"]",
+    "\"catsandog\"\n[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"wordBreak\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"wordDict\",\r\n      \"type\": \"list<string>\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

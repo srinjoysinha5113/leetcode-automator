@@ -1,0 +1,17 @@
+{
+  "slug": "group-anagrams",
+  "title": "Group Anagrams",
+  "question_id": "49",
+  "difficulty": "Medium",
+  "statement": "Given an array of strings `strs`, group the anagrams together. You can return the answer in **any order**.\n\n\u00a0\n\nExample 1:\n\n**Input:** strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]\n\n**Output:** [[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]\n\n**Explanation:**\n\n\t\n* There is no string in strs that can be rearranged to form `\"bat\"`.\n\t\n* The strings `\"nat\"` and `\"tan\"` are anagrams as they can be rearranged to form each other.\n\t\n* The strings `\"ate\"`, `\"eat\"`, and `\"tea\"` are anagrams as they can be rearranged to form each other.\n\nExample 2:\n\n**Input:** strs = [\"\"]\n\n**Output:** [[\"\"]]\n\nExample 3:\n\n**Input:** strs = [\"a\"]\n\n**Output:** [[\"a\"]]\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `0",
+  "starter_code": "class Solution:\n    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:\n        ",
+  "class_name": "Solution",
+  "method_name": "groupAnagrams",
+  "sample_test_case": "[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+  "example_testcases": [
+    "[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+    "[\"\"]",
+    "[\"a\"]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"groupAnagrams\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"strs\",\r\n      \"type\": \"string[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<string>>\",\r\n    \"dealloc\": true\r\n  }\r\n}"
+}

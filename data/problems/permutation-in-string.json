@@ -1,0 +1,16 @@
+{
+  "slug": "permutation-in-string",
+  "title": "Permutation in String",
+  "question_id": "567",
+  "difficulty": "Medium",
+  "statement": "Given two strings `s1` and `s2`, return `true` if `s2` contains a permutation of `s1`, or `false` otherwise.\n\nIn other words, return `true` if one of `s1`'s permutations is the substring of `s2`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s1 = \"ab\", s2 = \"eidbaooo\"\n**Output:** true\n**Explanation:** s2 contains one permutation of s1 (\"ba\").\n\n```\n\nExample 2:\n\n```\n\n**Input:** s1 = \"ab\", s2 = \"eidboaoo\"\n**Output:** false\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `s1` and `s2` consist of lowercase English letters.",
+  "starter_code": "class Solution:\n    def checkInclusion(self, s1: str, s2: str) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "checkInclusion",
+  "sample_test_case": "\"ab\"\n\"eidbaooo\"",
+  "example_testcases": [
+    "\"ab\"\n\"eidbaooo\"",
+    "\"ab\"\n\"eidboaoo\""
+  ],
+  "meta_data": "{\r\n  \"name\": \"checkInclusion\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s1\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"s2\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}\r\n"
+}

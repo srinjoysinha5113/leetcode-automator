@@ -1,0 +1,17 @@
+{
+  "slug": "search-in-rotated-sorted-array",
+  "title": "Search in Rotated Sorted Array",
+  "question_id": "33",
+  "difficulty": "Medium",
+  "statement": "There is an integer array `nums` sorted in ascending order (with **distinct** values).\n\nPrior to being passed to your function, `nums` is **possibly left rotated** at an unknown index `k` (`1 the index of `target` if it is in `nums`, or `-1` if it is not in `nums`.\n\nYou must write an algorithm with `O(log n)` runtime complexity.\n\n\u00a0\n\nExample 1:\n\n```\n**Input:** nums = [4,5,6,7,0,1,2], target = 0\n**Output:** 4\n\n```\nExample 2:\n\n```\n**Input:** nums = [4,5,6,7,0,1,2], target = 3\n**Output:** -1\n\n```\nExample 3:\n\n```\n**Input:** nums = [1], target = 0\n**Output:** -1\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4 4`\n\t\n* All values of `nums` are **unique**.\n\t\n* `nums` is an ascending array that is possibly rotated.\n\t\n* `-104 4`",
+  "starter_code": "class Solution:\n    def search(self, nums: list[int], target: int) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "search",
+  "sample_test_case": "[4,5,6,7,0,1,2]\n0",
+  "example_testcases": [
+    "[4,5,6,7,0,1,2]\n0",
+    "[4,5,6,7,0,1,2]\n3",
+    "[1]\n0"
+  ],
+  "meta_data": "{\r\n  \"name\": \"search\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

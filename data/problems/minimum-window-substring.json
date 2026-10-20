@@ -1,0 +1,17 @@
+{
+  "slug": "minimum-window-substring",
+  "title": "Minimum Window Substring",
+  "question_id": "76",
+  "difficulty": "Hard",
+  "statement": "Given two strings `s` and `t` of lengths `m` and `n` respectively, return the **minimum window** **substring** of `s` such that every character in `t` (**including duplicates**) is included in the window. If there is no such substring, return the empty string `\"\"`.\n\nThe testcases will be generated such that the answer is **unique**.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"ADOBECODEBANC\", t = \"ABC\"\n**Output:** \"BANC\"\n**Explanation:** The minimum window substring \"BANC\" includes 'A', 'B', and 'C' from string t.\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"a\", t = \"a\"\n**Output:** \"a\"\n**Explanation:** The entire string s is the minimum window.\n\n```\n\nExample 3:\n\n```\n\n**Input:** s = \"a\", t = \"aa\"\n**Output:** \"\"\n**Explanation:** Both 'a's from t must be included in the window.\nSince the largest window of s only has one 'a', return empty string.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `m == s.length`\n\t\n* `n == t.length`\n\t\n* `1 5`\n\t\n* `s` and `t` consist of uppercase and lowercase English letters.\n\n\u00a0\n\n**Follow up:** Could you find an algorithm that runs in `O(m + n)` time?",
+  "starter_code": "class Solution:\n    def minWindow(self, s: str, t: str) -> str:\n        ",
+  "class_name": "Solution",
+  "method_name": "minWindow",
+  "sample_test_case": "\"ADOBECODEBANC\"\n\"ABC\"",
+  "example_testcases": [
+    "\"ADOBECODEBANC\"\n\"ABC\"",
+    "\"a\"\n\"a\"",
+    "\"a\"\n\"aa\""
+  ],
+  "meta_data": "{ \r\n  \"name\": \"minWindow\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    { \r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"string\"\r\n  }\r\n}"
+}

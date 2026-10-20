@@ -1,0 +1,16 @@
+{
+  "slug": "maximum-product-subarray",
+  "title": "Maximum Product Subarray",
+  "question_id": "152",
+  "difficulty": "Medium",
+  "statement": "Given an integer array `nums`, find a subarray that has the largest product, and return the product.\n\nThe test cases are generated so that the answer will fit in a **32-bit** integer.\n\n**Note** that the product of an array with a single element is the value of that element.\n\n\u00a0\n\n\u200b\u200b\u200b\u200b\u200b\u200b\u200bExample 1:\n\n```\n\n**Input:** nums = [2,3,-2,4]\n**Output:** 6\n**Explanation:** [2,3] has the largest product 6.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [-2,0,-1]\n**Output:** 0\n**Explanation:** The result cannot be 2, because [-2,-1] is not a subarray.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `-10",
+  "starter_code": "class Solution:\n    def maxProduct(self, nums: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "maxProduct",
+  "sample_test_case": "[2,3,-2,4]",
+  "example_testcases": [
+    "[2,3,-2,4]",
+    "[-2,0,-1]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"maxProduct\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

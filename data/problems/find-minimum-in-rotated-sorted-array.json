@@ -1,0 +1,17 @@
+{
+  "slug": "find-minimum-in-rotated-sorted-array",
+  "title": "Find Minimum in Rotated Sorted Array",
+  "question_id": "153",
+  "difficulty": "Medium",
+  "statement": "Suppose an array of length `n` sorted in ascending order is **rotated** between `1` and `n` times. For example, the array `nums = [0,1,2,4,5,6,7]` might become:\n\n\t\n* `[4,5,6,7,0,1,2]` if it was rotated `4` times.\n\t\n* `[0,1,2,4,5,6,7]` if it was rotated `7` times.\n\nNotice that **rotating** an array `[a[0], a[1], a[2], ..., a[n-1]]` 1 time results in the array `[a[n-1], a[0], a[1], a[2], ..., a[n-2]]`.\n\nGiven the sorted rotated array `nums` of **unique** elements, return the minimum element of this array.\n\nYou must write an algorithm that runs in\u00a0`O(log n) time`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [3,4,5,1,2]\n**Output:** 1\n**Explanation:** The original array was [1,2,3,4,5] rotated 3 times.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [4,5,6,7,0,1,2]\n**Output:** 0\n**Explanation:** The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.\n\n```\n\nExample 3:\n\n```\n\n**Input:** nums = [11,13,15,17]\n**Output:** 11\n**Explanation:** The original array was [11,13,15,17] and it was rotated 4 times. \n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `n == nums.length`\n\t\n* `1",
+  "starter_code": "class Solution:\n    def findMin(self, nums: list[int]) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "findMin",
+  "sample_test_case": "[3,4,5,1,2]",
+  "example_testcases": [
+    "[3,4,5,1,2]",
+    "[4,5,6,7,0,1,2]",
+    "[11,13,15,17]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"findMin\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"nums\",\r\n      \"type\": \"integer[]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

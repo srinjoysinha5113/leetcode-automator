@@ -1,0 +1,17 @@
+{
+  "slug": "daily-temperatures",
+  "title": "Daily Temperatures",
+  "question_id": "739",
+  "difficulty": "Medium",
+  "statement": "Given an array of integers `temperatures` represents the daily temperatures, return an array `answer` such that `answer[i]` is the number of days you have to wait after the `ith` day to get a warmer temperature. If there is no future day for which this is possible, keep `answer[i] == 0` instead.\n\n\u00a0\n\nExample 1:\n\n```\n**Input:** temperatures = [73,74,75,71,69,72,76,73]\n**Output:** [1,1,4,2,1,1,0,0]\n\n```\nExample 2:\n\n```\n**Input:** temperatures = [30,40,50,60]\n**Output:** [1,1,1,0]\n\n```\nExample 3:\n\n```\n**Input:** temperatures = [30,60,90]\n**Output:** [1,1,0]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 5`\n\t\n* `30",
+  "starter_code": "class Solution:\n    def dailyTemperatures(self, temperatures: list[int]) -> list[int]:\n        ",
+  "class_name": "Solution",
+  "method_name": "dailyTemperatures",
+  "sample_test_case": "[73,74,75,71,69,72,76,73]",
+  "example_testcases": [
+    "[73,74,75,71,69,72,76,73]",
+    "[30,40,50,60]",
+    "[30,60,90]"
+  ],
+  "meta_data": "{\n  \"name\": \"dailyTemperatures\",\n  \"params\": [\n    {\n      \"name\": \"temperatures\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[]\"\n  }\n}"
+}

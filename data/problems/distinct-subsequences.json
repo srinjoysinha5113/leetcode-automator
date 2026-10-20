@@ -1,0 +1,16 @@
+{
+  "slug": "distinct-subsequences",
+  "title": "Distinct Subsequences",
+  "question_id": "115",
+  "difficulty": "Hard",
+  "statement": "Given two strings s and t, return the number of distinct subsequences of s which equals t.\n\nThe test cases are generated so that the answer fits on a 32-bit signed integer.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"rabbbit\", t = \"rabbit\"\n**Output:** 3\n**Explanation:**\nAs shown below, there are 3 ways you can generate \"rabbit\" from s.\n`**rabb**b**it**`\n`**ra**b**bbit**`\n`**rab**b**bit**`\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"babgbag\", t = \"bag\"\n**Output:** 5\n**Explanation:**\nAs shown below, there are 5 ways you can generate \"bag\" from s.\n`**ba**b**g**bag`\n`**ba**bgba**g**`\n`**b**abgb**ag**`\n`ba**b**gb**ag**`\n`babg**bag**`\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def numDistinct(self, s: str, t: str) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "numDistinct",
+  "sample_test_case": "\"rabbbit\"\n\"rabbit\"",
+  "example_testcases": [
+    "\"rabbbit\"\n\"rabbit\"",
+    "\"babgbag\"\n\"bag\""
+  ],
+  "meta_data": "{\r\n  \"name\": \"numDistinct\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "regular-expression-matching",
+  "title": "Regular Expression Matching",
+  "question_id": "10",
+  "difficulty": "Hard",
+  "statement": "Given an input string `s`\u00a0and a pattern `p`, implement regular expression matching with support for `'.'` and `'*'` where:\n\n\t\n* `'.'` Matches any single character.\u200b\u200b\u200b\u200b\n\t\n* `'*'` Matches zero or more of the preceding element.\n\nReturn a boolean indicating whether the matching covers the entire input string (not partial).\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"aa\", p = \"a\"\n**Output:** false\n**Explanation:** \"a\" does not match the entire string \"aa\".\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"aa\", p = \"a*\"\n**Output:** true\n**Explanation:** '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes \"aa\".\n\n```\n\nExample 3:\n\n```\n\n**Input:** s = \"ab\", p = \".*\"\n**Output:** true\n**Explanation:** \".*\" means \"zero or more (*) of any character (.)\".\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "isMatch",
+  "sample_test_case": "\"aa\"\n\"a\"",
+  "example_testcases": [
+    "\"aa\"\n\"a\"",
+    "\"aa\"\n\"a*\"",
+    "\"ab\"\n\".*\""
+  ],
+  "meta_data": "{ \r\n  \"name\": \"isMatch\",\r\n  \"params\": [\r\n    { \r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"p\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

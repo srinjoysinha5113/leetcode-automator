@@ -1,0 +1,17 @@
+{
+  "slug": "valid-palindrome",
+  "title": "Valid Palindrome",
+  "question_id": "125",
+  "difficulty": "Easy",
+  "statement": "A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.\n\nGiven a string `s`, return `true` if it is a **palindrome**, or `false` otherwise.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"A man, a plan, a canal: Panama\"\n**Output:** true\n**Explanation:** \"amanaplanacanalpanama\" is a palindrome.\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"race a car\"\n**Output:** false\n**Explanation:** \"raceacar\" is not a palindrome.\n\n```\n\nExample 3:\n\n```\n\n**Input:** s = \" \"\n**Output:** true\n**Explanation:** s is an empty string \"\" after removing non-alphanumeric characters.\nSince an empty string reads the same forward and backward, it is a palindrome.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 5`\n\t\n* `s` consists only of printable ASCII characters.",
+  "starter_code": "class Solution:\n    def isPalindrome(self, s: str) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "isPalindrome",
+  "sample_test_case": "\"A man, a plan, a canal: Panama\"",
+  "example_testcases": [
+    "\"A man, a plan, a canal: Panama\"",
+    "\"race a car\"",
+    "\" \""
+  ],
+  "meta_data": "{ \r\n  \"name\": \"isPalindrome\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

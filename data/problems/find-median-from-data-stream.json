@@ -1,0 +1,15 @@
+{
+  "slug": "find-median-from-data-stream",
+  "title": "Find Median from Data Stream",
+  "question_id": "295",
+  "difficulty": "Hard",
+  "statement": "The **median** is the middle value in an ordered integer list. If the size of the list is even, there is no middle value, and the median is the mean of the two middle values.\n\n\t\n* For example, for `arr = [2,3,4]`, the median is `3`.\n\t\n* For example, for `arr = [2,3]`, the median is `(2 + 3) / 2 = 2.5`.\n\nImplement the MedianFinder class:\n\n\t\n* `MedianFinder()` initializes the `MedianFinder` object.\n\t\n* `void addNum(int num)` adds the integer `num` from the data stream to the data structure.\n\t\n* `double findMedian()` returns the median of all elements so far. Answers within `10-5` of the actual answer will be accepted.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input**\n[\"MedianFinder\", \"addNum\", \"addNum\", \"findMedian\", \"addNum\", \"findMedian\"]\n[[], [1], [2], [], [3], []]\n**Output**\n[null, null, null, 1.5, null, 2.0]\n\n**Explanation**\nMedianFinder medianFinder = new MedianFinder();\nmedianFinder.addNum(1);    // arr = [1]\nmedianFinder.addNum(2);    // arr = [1, 2]\nmedianFinder.findMedian(); // return 1.5 (i.e., (1 + 2) / 2)\nmedianFinder.addNum(3);    // arr[1, 2, 3]\nmedianFinder.findMedian(); // return 2.0\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `-105 5`\n\t\n* There will be at least one element in the data structure before calling `findMedian`.\n\t\n* At most `5 * 104` calls will be made to `addNum` and `findMedian`.\n\n\u00a0\n\n**Follow up:**\n\n\t\n* If all integer numbers from the stream are in the range `[0, 100]`, how would you optimize your solution?\n\t\n* If `99%` of all integer numbers from the stream are in the range `[0, 100]`, how would you optimize your solution?",
+  "starter_code": "class MedianFinder:\n\n    def __init__(self):\n        \n\n    def addNum(self, num: int) -> None:\n        \n\n    def findMedian(self) -> float:\n        \n\n\n# Your MedianFinder object will be instantiated and called as such:\n# obj = MedianFinder()\n# obj.addNum(num)\n# param_2 = obj.findMedian()",
+  "class_name": "MedianFinder",
+  "method_name": "__init__",
+  "sample_test_case": "[\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"]\n[[],[1],[2],[],[3],[]]",
+  "example_testcases": [
+    "[\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"]\n[[],[1],[2],[],[3],[]]"
+  ],
+  "meta_data": "{\n  \"classname\": \"MedianFinder\",\n  \"constructor\": {\n    \"params\": []\n  },\n  \"methods\": [\n    {\n      \"params\": [\n        {\n          \"type\": \"integer\",\n          \"name\": \"num\"\n        }\n      ],\n      \"name\": \"addNum\",\n      \"return\": {\n        \"type\": \"void\"\n      }\n    },\n    {\n      \"params\": [],\n      \"name\": \"findMedian\",\n      \"return\": {\n        \"type\": \"double\"\n      }\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  },\n  \"systemdesign\": true\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "word-search-ii",
+  "title": "Word Search II",
+  "question_id": "212",
+  "difficulty": "Hard",
+  "statement": "Given an `m x n` `board`\u00a0of characters and a list of strings `words`, return all words on the board.\n\nEach word must be constructed from letters of sequentially adjacent cells, where **adjacent cells** are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** board = [[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]], words = [\"oath\",\"pea\",\"eat\",\"rain\"]\n**Output:** [\"eat\",\"oath\"]\n\n```\n\nExample 2:\n\n```\n\n**Input:** board = [[\"a\",\"b\"],[\"c\",\"d\"]], words = [\"abcb\"]\n**Output:** []\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `m == board.length`\n\t\n* `n == board[i].length`\n\t\n* `1 4`\n\t\n* `1",
+  "starter_code": "class Solution:\n    def findWords(self, board: list[list[str]], words: list[str]) -> list[str]:\n        ",
+  "class_name": "Solution",
+  "method_name": "findWords",
+  "sample_test_case": "[[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]]\n[\"oath\",\"pea\",\"eat\",\"rain\"]",
+  "example_testcases": [
+    "[[\"o\",\"a\",\"a\",\"n\"],[\"e\",\"t\",\"a\",\"e\"],[\"i\",\"h\",\"k\",\"r\"],[\"i\",\"f\",\"l\",\"v\"]]\n[\"oath\",\"pea\",\"eat\",\"rain\"]",
+    "[[\"a\",\"b\"],[\"c\",\"d\"]]\n[\"abcb\"]"
+  ],
+  "meta_data": "{\n  \"name\": \"findWords\",\n  \"params\": [\n    {\n      \"name\": \"board\",\n      \"type\": \"character[][]\"\n    },\n    {\n      \"name\": \"words\",\n      \"type\": \"string[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  }\n}"
+}

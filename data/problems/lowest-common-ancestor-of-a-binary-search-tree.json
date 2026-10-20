@@ -1,0 +1,17 @@
+{
+  "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+  "title": "Lowest Common Ancestor of a Binary Search Tree",
+  "question_id": "235",
+  "difficulty": "Medium",
+  "statement": "Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.\n\nAccording to the definition of LCA on Wikipedia: \u201cThe lowest common ancestor is defined between two nodes `p` and `q` as the lowest node in `T` that has both `p` and `q` as descendants (where we allow **a node to be a descendant of itself**).\u201d\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8\n**Output:** 6\n**Explanation:** The LCA of nodes 2 and 8 is 6.\n\n```\n\nExample 2:\n\n```\n\n**Input:** root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4\n**Output:** 2\n**Explanation:** The LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.\n\n```\n\nExample 3:\n\n```\n\n**Input:** root = [2,1], p = 2, q = 1\n**Output:** 2\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the tree is in the range `[2, 105]`.\n\t\n* `-109 9`\n\t\n* All `Node.val` are **unique**.\n\t\n* `p != q`\n\t\n* `p` and `q` will exist in the BST.",
+  "starter_code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, x):\n#         self.val = x\n#         self.left = None\n#         self.right = None\n\nclass Solution:\n    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':\n        ",
+  "class_name": "TreeNode",
+  "method_name": "__init__",
+  "sample_test_case": "[6,2,8,0,4,7,9,null,null,3,5]\n2\n8",
+  "example_testcases": [
+    "[6,2,8,0,4,7,9,null,null,3,5]\n2\n8",
+    "[6,2,8,0,4,7,9,null,null,3,5]\n2\n4",
+    "[2,1]\n2\n1"
+  ],
+  "meta_data": "{\n  \"name\": \"lowestCommonAncestor\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"name\": \"p\",\n      \"type\": \"integer\"\n    },\n    {\n      \"name\": \"q\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"TreeNode\"\n  },\n  \"manual\": true\n}"
+}

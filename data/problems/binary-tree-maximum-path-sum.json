@@ -1,0 +1,16 @@
+{
+  "slug": "binary-tree-maximum-path-sum",
+  "title": "Binary Tree Maximum Path Sum",
+  "question_id": "124",
+  "difficulty": "Hard",
+  "statement": "A **path** in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence **at most once**. Note that the path does not need to pass through the root.\n\nThe **path sum** of a path is the sum of the node's values in the path.\n\nGiven the `root` of a binary tree, return the maximum **path sum** of any **non-empty** path.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** root = [1,2,3]\n**Output:** 6\n**Explanation:** The optimal path is 2 -> 1 -> 3 with a path sum of 2 + 1 + 3 = 6.\n\n```\n\nExample 2:\n\n```\n\n**Input:** root = [-10,9,20,null,null,15,7]\n**Output:** 42\n**Explanation:** The optimal path is 15 -> 20 -> 7 with a path sum of 15 + 20 + 7 = 42.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the tree is in the range `[1, 3 * 104]`.\n\t\n* `-1000",
+  "starter_code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def maxPathSum(self, root: TreeNode | None) -> int:\n        ",
+  "class_name": "TreeNode",
+  "method_name": "__init__",
+  "sample_test_case": "[1,2,3]",
+  "example_testcases": [
+    "[1,2,3]",
+    "[-10,9,20,null,null,15,7]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"maxPathSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

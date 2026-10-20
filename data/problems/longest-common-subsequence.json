@@ -1,0 +1,17 @@
+{
+  "slug": "longest-common-subsequence",
+  "title": "Longest Common Subsequence",
+  "question_id": "1143",
+  "difficulty": "Medium",
+  "statement": "Given two strings `text1` and `text2`, return the length of their longest **common subsequence**. If there is no **common subsequence**, return `0`.\n\nA **subsequence** of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.\n\n\t\n* For example, `\"ace\"` is a subsequence of `\"abcde\"`.\n\nA **common subsequence** of two strings is a subsequence that is common to both strings.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** text1 = \"abcde\", text2 = \"ace\" \n**Output:** 3  \n**Explanation:** The longest common subsequence is \"ace\" and its length is 3.\n\n```\n\nExample 2:\n\n```\n\n**Input:** text1 = \"abc\", text2 = \"abc\"\n**Output:** 3\n**Explanation:** The longest common subsequence is \"abc\" and its length is 3.\n\n```\n\nExample 3:\n\n```\n\n**Input:** text1 = \"abc\", text2 = \"def\"\n**Output:** 0\n**Explanation:** There is no such common subsequence, so the result is 0.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def longestCommonSubsequence(self, text1: str, text2: str) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "longestCommonSubsequence",
+  "sample_test_case": "\"abcde\"\n\"ace\"",
+  "example_testcases": [
+    "\"abcde\"\n\"ace\"",
+    "\"abc\"\n\"abc\"",
+    "\"abc\"\n\"def\""
+  ],
+  "meta_data": "{\n  \"name\": \"longestCommonSubsequence\",\n  \"params\": [\n    {\n      \"name\": \"text1\",\n      \"type\": \"string\"\n    },\n    {\n      \"type\": \"string\",\n      \"name\": \"text2\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}"
+}

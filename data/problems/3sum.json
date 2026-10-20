@@ -1,0 +1,17 @@
+{
+  "slug": "3sum",
+  "title": "3Sum",
+  "question_id": "15",
+  "difficulty": "Medium",
+  "statement": "Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.\n\nNotice that the solution set must not contain duplicate triplets.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** nums = [-1,0,1,2,-1,-4]\n**Output:** [[-1,-1,2],[-1,0,1]]\n**Explanation:** \nnums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.\nnums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.\nnums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.\nThe distinct triplets are [-1,0,1] and [-1,-1,2].\nNotice that the order of the output and the order of the triplets does not matter.\n\n```\n\nExample 2:\n\n```\n\n**Input:** nums = [0,1,1]\n**Output:** []\n**Explanation:** The only possible triplet does not sum up to 0.\n\n```\n\nExample 3:\n\n```\n\n**Input:** nums = [0,0,0]\n**Output:** [[0,0,0]]\n**Explanation:** The only possible triplet sums up to 0.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `3 5 5`",
+  "starter_code": "class Solution:\n    def threeSum(self, nums: list[int]) -> list[list[int]]:\n        ",
+  "class_name": "Solution",
+  "method_name": "threeSum",
+  "sample_test_case": "[-1,0,1,2,-1,-4]",
+  "example_testcases": [
+    "[-1,0,1,2,-1,-4]",
+    "[0,1,1]",
+    "[0,0,0]"
+  ],
+  "meta_data": "{\n  \"name\": \"threeSum\",\n  \"params\": [\n    {\n      \"name\": \"nums\",\n      \"type\": \"integer[]\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<list<integer>>\",\n    \"colsize\": 3,\n    \"dealloc\": true\n  }\n}"
+}

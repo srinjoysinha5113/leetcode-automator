@@ -1,0 +1,17 @@
+{
+  "slug": "reverse-linked-list",
+  "title": "Reverse Linked List",
+  "question_id": "206",
+  "difficulty": "Easy",
+  "statement": "Given the `head` of a singly linked list, reverse the list, and return the reversed list.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** head = [1,2,3,4,5]\n**Output:** [5,4,3,2,1]\n\n```\n\nExample 2:\n\n```\n\n**Input:** head = [1,2]\n**Output:** [2,1]\n\n```\n\nExample 3:\n\n```\n\n**Input:** head = []\n**Output:** []\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the list is the range `[0, 5000]`.\n\t\n* `-5000 \n\n\u00a0\n\n**Follow up:** A linked list can be reversed either iteratively or recursively. Could you implement both?",
+  "starter_code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def reverseList(self, head: ListNode | None) -> ListNode | None:\n        ",
+  "class_name": "ListNode",
+  "method_name": "__init__",
+  "sample_test_case": "[1,2,3,4,5]",
+  "example_testcases": [
+    "[1,2,3,4,5]",
+    "[1,2]",
+    "[]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"reverseList\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}"
+}

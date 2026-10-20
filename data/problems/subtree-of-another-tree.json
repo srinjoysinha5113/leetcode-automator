@@ -1,0 +1,16 @@
+{
+  "slug": "subtree-of-another-tree",
+  "title": "Subtree of Another Tree",
+  "question_id": "572",
+  "difficulty": "Easy",
+  "statement": "Given the roots of two binary trees `root` and `subRoot`, return `true` if there is a subtree of `root` with the same structure and node values of` subRoot` and `false` otherwise.\n\nA subtree of a binary tree `tree` is a tree that consists of a node in `tree` and all of this node's descendants. The tree `tree` could also be considered as a subtree of itself.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** root = [3,4,5,1,2], subRoot = [4,1,2]\n**Output:** true\n\n```\n\nExample 2:\n\n```\n\n**Input:** root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]\n**Output:** false\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the `root` tree is in the range `[1, 2000]`.\n\t\n* The number of nodes in the `subRoot` tree is in the range `[1, 1000]`.\n\t\n* `-104 4`\n\t\n* `-104 4`",
+  "starter_code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def isSubtree(self, root: TreeNode | None, subRoot: TreeNode | None) -> bool:\n        ",
+  "class_name": "TreeNode",
+  "method_name": "__init__",
+  "sample_test_case": "[3,4,5,1,2]\n[4,1,2]",
+  "example_testcases": [
+    "[3,4,5,1,2]\n[4,1,2]",
+    "[3,4,5,1,2,null,null,null,null,0]\n[4,1,2]"
+  ],
+  "meta_data": "{\n  \"name\": \"isSubtree\",\n  \"params\": [\n    {\n      \"name\": \"root\",\n      \"type\": \"TreeNode\"\n    },\n    {\n      \"name\": \"subRoot\",\n      \"type\": \"TreeNode\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"boolean\"\n  }\n}"
+}

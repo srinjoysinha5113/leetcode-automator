@@ -1,0 +1,17 @@
+{
+  "slug": "binary-tree-level-order-traversal",
+  "title": "Binary Tree Level Order Traversal",
+  "question_id": "102",
+  "difficulty": "Medium",
+  "statement": "Given the `root` of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** root = [3,9,20,null,null,15,7]\n**Output:** [[3],[9,20],[15,7]]\n\n```\n\nExample 2:\n\n```\n\n**Input:** root = [1]\n**Output:** [[1]]\n\n```\n\nExample 3:\n\n```\n\n**Input:** root = []\n**Output:** []\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the tree is in the range `[0, 2000]`.\n\t\n* `-1000",
+  "starter_code": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def levelOrder(self, root: TreeNode | None) -> list[list[int]]:\n        ",
+  "class_name": "TreeNode",
+  "method_name": "__init__",
+  "sample_test_case": "[3,9,20,null,null,15,7]",
+  "example_testcases": [
+    "[3,9,20,null,null,15,7]",
+    "[1]",
+    "[]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"levelOrder\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"root\",\r\n      \"type\": \"TreeNode\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"list<list<integer>>\",\r\n    \"dealloc\": true\r\n  }\r\n}"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "task-scheduler",
+  "title": "Task Scheduler",
+  "question_id": "621",
+  "difficulty": "Medium",
+  "statement": "You are given an array of CPU `tasks`, each labeled with a letter from A to Z, and a number `n`. Each CPU interval can be idle or allow the completion of one task. Tasks can be completed in any order, but there's a constraint: there has to be a gap of **at least** `n` intervals between two tasks with the same label.\n\nReturn the **minimum** number of CPU intervals required to complete all tasks.\n\n\u00a0\n\nExample 1:\n\n**Input:** tasks = [\"A\",\"A\",\"A\",\"B\",\"B\",\"B\"], n = 2\n\n**Output:** 8\n\n**Explanation:** A possible sequence is: A -> B -> idle -> A -> B -> idle -> A -> B.\n\nAfter completing task A, you must wait two intervals before doing A again. The same applies to task B. In the 3rd interval, neither A nor B can be done, so you idle. By the 4th interval, you can do A again as 2 intervals have passed.\n\nExample 2:\n\n**Input:** tasks = [\"A\",\"C\",\"A\",\"B\",\"D\",\"B\"], n = 1\n\n**Output:** 6\n\n**Explanation:** A possible sequence is: A -> B -> C -> D -> A -> B.\n\nWith a cooling interval of 1, you can repeat a task after just one other task.\n\nExample 3:\n\n**Input:** tasks = [\"A\",\"A\",\"A\", \"B\",\"B\",\"B\"], n = 3\n\n**Output:** 10\n\n**Explanation:** A possible sequence is: A -> B -> idle -> idle -> A -> B -> idle -> idle -> A -> B.\n\nThere are only two types of tasks, A and B, which need to be separated by 3 intervals. This leads to idling twice between repetitions of these tasks.\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `tasks[i]` is an uppercase English letter.\n\t\n* `0",
+  "starter_code": "class Solution:\n    def leastInterval(self, tasks: list[str], n: int) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "leastInterval",
+  "sample_test_case": "[\"A\",\"A\",\"A\",\"B\",\"B\",\"B\"]\n2",
+  "example_testcases": [
+    "[\"A\",\"A\",\"A\",\"B\",\"B\",\"B\"]\n2",
+    "[\"A\",\"C\",\"A\",\"B\",\"D\",\"B\"]\n1",
+    "[\"A\",\"A\",\"A\", \"B\",\"B\",\"B\"]\n3"
+  ],
+  "meta_data": "{\n  \"name\": \"leastInterval\",\n  \"params\": [\n    {\n      \"name\": \"tasks\",\n      \"type\": \"character[]\"\n    },\n    {\n      \"name\": \"n\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}"
+}

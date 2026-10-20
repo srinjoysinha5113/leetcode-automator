@@ -1,0 +1,16 @@
+{
+  "slug": "k-closest-points-to-origin",
+  "title": "K Closest Points to Origin",
+  "question_id": "973",
+  "difficulty": "Medium",
+  "statement": "Given an array of `points` where `points[i] = [xi, yi]` represents a point on the **X-Y** plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`.\n\nThe distance between two points on the **X-Y** plane is the Euclidean distance (i.e., `\u221a(x1 - x2)2 + (y1 - y2)2`).\n\nYou may return the answer in **any order**. The answer is **guaranteed** to be **unique** (except for the order that it is in).\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** points = [[1,3],[-2,2]], k = 1\n**Output:** [[-2,2]]\n**Explanation:**\nThe distance between (1, 3) and the origin is sqrt(10).\nThe distance between (-2, 2) and the origin is sqrt(8).\nSince sqrt(8) Example 2:\n\n```\n\n**Input:** points = [[3,3],[5,-1],[-2,4]], k = 2\n**Output:** [[3,3],[-2,4]]\n**Explanation:** The answer [[-2,4],[3,3]] would also be accepted.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `-104 i, yi 4`",
+  "starter_code": "class Solution:\n    def kClosest(self, points: list[list[int]], k: int) -> list[list[int]]:\n        ",
+  "class_name": "Solution",
+  "method_name": "kClosest",
+  "sample_test_case": "[[1,3],[-2,2]]\n1",
+  "example_testcases": [
+    "[[1,3],[-2,2]]\n1",
+    "[[3,3],[5,-1],[-2,4]]\n2"
+  ],
+  "meta_data": "{\n  \"name\": \"kClosest\",\n  \"params\": [\n    {\n      \"name\": \"points\",\n      \"type\": \"integer[][]\"\n    },\n    {\n      \"name\": \"k\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer[][]\"\n  }\n}"
+}

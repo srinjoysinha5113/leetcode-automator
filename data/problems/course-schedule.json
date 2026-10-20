@@ -1,0 +1,16 @@
+{
+  "slug": "course-schedule",
+  "title": "Course Schedule",
+  "question_id": "207",
+  "difficulty": "Medium",
+  "statement": "There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses - 1`. You are given an array `prerequisites` where `prerequisites[i] = [ai, bi]` indicates that you **must** take course `bi` first if you want to take course `ai`.\n\n\t\n* For example, the pair `[0, 1]`, indicates that to take course `0` you have to first take course `1`.\n\nReturn `true` if you can finish all courses. Otherwise, return `false`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** numCourses = 2, prerequisites = [[1,0]]\n**Output:** true\n**Explanation:** There are a total of 2 courses to take. \nTo take course 1 you should have finished course 0. So it is possible.\n\n```\n\nExample 2:\n\n```\n\n**Input:** numCourses = 2, prerequisites = [[1,0],[0,1]]\n**Output:** false\n**Explanation:** There are a total of 2 courses to take. \nTo take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 i, bi",
+  "starter_code": "class Solution:\n    def canFinish(self, numCourses: int, prerequisites: list[list[int]]) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "canFinish",
+  "sample_test_case": "2\n[[1,0]]",
+  "example_testcases": [
+    "2\n[[1,0]]",
+    "2\n[[1,0],[0,1]]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"canFinish\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"numCourses\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"prerequisites\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

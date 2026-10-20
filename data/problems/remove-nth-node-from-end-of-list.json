@@ -1,0 +1,17 @@
+{
+  "slug": "remove-nth-node-from-end-of-list",
+  "title": "Remove Nth Node From End of List",
+  "question_id": "19",
+  "difficulty": "Medium",
+  "statement": "Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** head = [1,2,3,4,5], n = 2\n**Output:** [1,2,3,5]\n\n```\n\nExample 2:\n\n```\n\n**Input:** head = [1], n = 1\n**Output:** []\n\n```\n\nExample 3:\n\n```\n\n**Input:** head = [1,2], n = 1\n**Output:** [1]\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* The number of nodes in the list is `sz`.\n\t\n* `1 \n\n\u00a0\n\n**Follow up:** Could you do this in one pass?",
+  "starter_code": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def removeNthFromEnd(self, head: ListNode | None, n: int) -> ListNode | None:\n        ",
+  "class_name": "ListNode",
+  "method_name": "__init__",
+  "sample_test_case": "[1,2,3,4,5]\n2",
+  "example_testcases": [
+    "[1,2,3,4,5]\n2",
+    "[1]\n1",
+    "[1,2]\n1"
+  ],
+  "meta_data": "{\r\n  \"name\": \"removeNthFromEnd\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"head\",\r\n      \"type\": \"ListNode\",\r\n      \"dealloc\": false\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"ListNode\",\r\n    \"dealloc\": true\r\n  }\r\n}"
+}

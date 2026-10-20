@@ -1,0 +1,16 @@
+{
+  "slug": "longest-palindromic-substring",
+  "title": "Longest Palindromic Substring",
+  "question_id": "5",
+  "difficulty": "Medium",
+  "statement": "Given a string `s`, return the longest palindromic substring in `s`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"babad\"\n**Output:** \"bab\"\n**Explanation:** \"aba\" is also a valid answer.\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"cbbd\"\n**Output:** \"bb\"\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def longestPalindrome(self, s: str) -> str:\n        ",
+  "class_name": "Solution",
+  "method_name": "longestPalindrome",
+  "sample_test_case": "\"babad\"",
+  "example_testcases": [
+    "\"babad\"",
+    "\"cbbd\""
+  ],
+  "meta_data": "{ \n  \"name\": \"longestPalindrome\",\n  \"params\": [\n    { \n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"string\"\n  }\n}"
+}

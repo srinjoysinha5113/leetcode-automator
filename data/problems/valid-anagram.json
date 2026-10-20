@@ -1,0 +1,16 @@
+{
+  "slug": "valid-anagram",
+  "title": "Valid Anagram",
+  "question_id": "242",
+  "difficulty": "Easy",
+  "statement": "Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.\n\n\u00a0\n\nExample 1:\n\n**Input:** s = \"anagram\", t = \"nagaram\"\n\n**Output:** true\n\nExample 2:\n\n**Input:** s = \"rat\", t = \"car\"\n\n**Output:** false\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `s` and `t` consist of lowercase English letters.\n\n\u00a0\n\n**Follow up:** What if the inputs contain Unicode characters? How would you adapt your solution to such a case?",
+  "starter_code": "class Solution:\n    def isAnagram(self, s: str, t: str) -> bool:\n        ",
+  "class_name": "Solution",
+  "method_name": "isAnagram",
+  "sample_test_case": "\"anagram\"\n\"nagaram\"",
+  "example_testcases": [
+    "\"anagram\"\n\"nagaram\"",
+    "\"rat\"\n\"car\""
+  ],
+  "meta_data": "{\r\n  \"name\": \"isAnagram\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"s\",\r\n      \"type\": \"string\"\r\n    },\r\n    {\r\n      \"name\": \"t\",\r\n      \"type\": \"string\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

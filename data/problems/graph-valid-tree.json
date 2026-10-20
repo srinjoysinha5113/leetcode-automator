@@ -1,0 +1,16 @@
+{
+  "slug": "graph-valid-tree",
+  "title": "Graph Valid Tree",
+  "question_id": "261",
+  "difficulty": "Medium",
+  "statement": "",
+  "starter_code": null,
+  "class_name": "Solution",
+  "method_name": null,
+  "sample_test_case": "5\n[[0,1],[0,2],[0,3],[1,4]]",
+  "example_testcases": [
+    "5\n[[0,1],[0,2],[0,3],[1,4]]",
+    "5\n[[0,1],[1,2],[2,3],[1,3],[1,4]]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"validTree\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"edges\",\r\n      \"type\": \"integer[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"boolean\"\r\n  }\r\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "palindromic-substrings",
+  "title": "Palindromic Substrings",
+  "question_id": "647",
+  "difficulty": "Medium",
+  "statement": "Given a string `s`, return the number of **palindromic substrings** in it.\n\nA string is a **palindrome** when it reads the same backward as forward.\n\nA **substring** is a contiguous sequence of characters within the string.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** s = \"abc\"\n**Output:** 3\n**Explanation:** Three palindromic strings: \"a\", \"b\", \"c\".\n\n```\n\nExample 2:\n\n```\n\n**Input:** s = \"aaa\"\n**Output:** 6\n**Explanation:** Six palindromic strings: \"a\", \"a\", \"a\", \"aa\", \"aa\", \"aaa\".\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def countSubstrings(self, s: str) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "countSubstrings",
+  "sample_test_case": "\"abc\"",
+  "example_testcases": [
+    "\"abc\"",
+    "\"aaa\""
+  ],
+  "meta_data": "{\n  \"name\": \"countSubstrings\",\n  \"params\": [\n    {\n      \"name\": \"s\",\n      \"type\": \"string\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}\n"
+}

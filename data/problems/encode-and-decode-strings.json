@@ -1,0 +1,16 @@
+{
+  "slug": "encode-and-decode-strings",
+  "title": "Encode and Decode Strings",
+  "question_id": "271",
+  "difficulty": "Medium",
+  "statement": "",
+  "starter_code": null,
+  "class_name": "Solution",
+  "method_name": null,
+  "sample_test_case": "[\"Hello\",\"World\"]",
+  "example_testcases": [
+    "[\"Hello\",\"World\"]",
+    "[\"\"]"
+  ],
+  "meta_data": "{\n  \"name\": \"encode\",\n  \"params\": [\n    {\n      \"name\": \"dummy_input\",\n      \"type\": \"list<string>\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"list<string>\"\n  },\n  \"manual\": true\n}"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "unique-paths",
+  "title": "Unique Paths",
+  "question_id": "62",
+  "difficulty": "Medium",
+  "statement": "There is a robot on an `m x n` grid. The robot is initially located at the **top-left corner** (i.e., `grid[0][0]`). The robot tries to move to the **bottom-right corner** (i.e., `grid[m - 1][n - 1]`). The robot can only move either down or right at any point in time.\n\nGiven the two integers `m` and `n`, return the number of possible unique paths that the robot can take to reach the bottom-right corner.\n\nThe test cases are generated so that the answer will be less than or equal to `2 * 109`.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** m = 3, n = 7\n**Output:** 28\n\n```\n\nExample 2:\n\n```\n\n**Input:** m = 3, n = 2\n**Output:** 3\n**Explanation:** From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:\n1. Right -> Down -> Down\n2. Down -> Down -> Right\n3. Down -> Right -> Down\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1",
+  "starter_code": "class Solution:\n    def uniquePaths(self, m: int, n: int) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "uniquePaths",
+  "sample_test_case": "3\n7",
+  "example_testcases": [
+    "3\n7",
+    "3\n2"
+  ],
+  "meta_data": "{\r\n  \"name\": \"uniquePaths\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"m\",\r\n      \"type\": \"integer\"\r\n    },\r\n    {\r\n      \"name\": \"n\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer\"\r\n  }\r\n}"
+}

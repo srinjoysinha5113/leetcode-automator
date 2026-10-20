@@ -1,0 +1,16 @@
+{
+  "slug": "surrounded-regions",
+  "title": "Surrounded Regions",
+  "question_id": "130",
+  "difficulty": "Medium",
+  "statement": "You are given an `m x n` matrix `board` containing **letters** `'X'` and `'O'`, **capture regions** that are **surrounded**:\n\n\t\n* **Connect**: A cell is connected to adjacent cells horizontally or vertically.\n\t\n* **Region**: To form a region **connect every** `'O'` cell.\n\t\n* **Surround**: A region is surrounded if none of the `'O'` cells in that region are on the edge of the board. Such regions are **completely enclosed **by `'X'` cells.\n\nTo capture a **surrounded region**, replace all `'O'`s with `'X'`s **in-place** within the original board. You do not need to return anything.\n\n\u00a0\n\nExample 1:\n\n**Input:** board = [[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"O\",\"X\"],[\"X\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]\n\n**Output:** [[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]\n\n**Explanation:**\n\nIn the above diagram, the bottom region is not captured because it is on the edge of the board and cannot be surrounded.\n\nExample 2:\n\n**Input:** board = [[\"X\"]]\n\n**Output:** [[\"X\"]]\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `m == board.length`\n\t\n* `n == board[i].length`\n\t\n* `1",
+  "starter_code": "class Solution:\n    def solve(self, board: list[list[str]]) -> None:\n        \"\"\"\n        Do not return anything, modify board in-place instead.\n        \"\"\"\n        ",
+  "class_name": "Solution",
+  "method_name": "solve",
+  "sample_test_case": "[[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"O\",\"X\"],[\"X\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]",
+  "example_testcases": [
+    "[[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"O\",\"X\"],[\"X\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]",
+    "[[\"X\"]]"
+  ],
+  "meta_data": "{\r\n  \"name\": \"solve\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"board\",\r\n      \"type\": \"character[][]\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"void\"\r\n  },\r\n  \"output\": {\r\n    \"paramindex\": 0\r\n  }\r\n}"
+}

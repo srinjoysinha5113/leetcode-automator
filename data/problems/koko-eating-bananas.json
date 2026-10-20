@@ -1,0 +1,17 @@
+{
+  "slug": "koko-eating-bananas",
+  "title": "Koko Eating Bananas",
+  "question_id": "875",
+  "difficulty": "Medium",
+  "statement": "Koko loves to eat bananas. There are `n` piles of bananas, the `ith` pile has `piles[i]` bananas. The guards have gone and will come back in `h` hours.\n\nKoko can decide her bananas-per-hour eating speed of `k`. Each hour, she chooses some pile of bananas and eats `k` bananas from that pile. If the pile has less than `k` bananas, she eats all of them instead and will not eat any more bananas during this hour.\n\nKoko likes to eat slowly but still wants to finish eating all the bananas before the guards return.\n\nReturn the minimum integer `k` such that she can eat all the bananas within `h` hours.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** piles = [3,6,7,11], h = 8\n**Output:** 4\n\n```\n\nExample 2:\n\n```\n\n**Input:** piles = [30,11,23,4,20], h = 5\n**Output:** 30\n\n```\n\nExample 3:\n\n```\n\n**Input:** piles = [30,11,23,4,20], h = 6\n**Output:** 23\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `1 4`\n\t\n* `piles.length 9`\n\t\n* `1 9`",
+  "starter_code": "class Solution:\n    def minEatingSpeed(self, piles: list[int], h: int) -> int:\n        ",
+  "class_name": "Solution",
+  "method_name": "minEatingSpeed",
+  "sample_test_case": "[3,6,7,11]\n8",
+  "example_testcases": [
+    "[3,6,7,11]\n8",
+    "[30,11,23,4,20]\n5",
+    "[30,11,23,4,20]\n6"
+  ],
+  "meta_data": "{\n  \"name\": \"minEatingSpeed\",\n  \"params\": [\n    {\n      \"name\": \"piles\",\n      \"type\": \"integer[]\"\n    },\n    {\n      \"name\": \"h\",\n      \"type\": \"integer\"\n    }\n  ],\n  \"return\": {\n    \"type\": \"integer\"\n  }\n}"
+}

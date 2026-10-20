@@ -1,0 +1,17 @@
+{
+  "slug": "two-sum-ii-input-array-is-sorted",
+  "title": "Two Sum II - Input Array Is Sorted",
+  "question_id": "167",
+  "difficulty": "Medium",
+  "statement": "You are given a **1-indexed** array of integers `numbers` that is already **sorted in non-decreasing order**.\n\nFind **two** numbers such that they add up to a specific `target` number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 1 2 1` and `index2` as an integer array `[index1, index2]` of length 2.\n\nThe tests are generated such that there is **exactly one solution**. You **may not** use the same element twice.\n\nYour solution must use only constant extra space.\n\n\u00a0\n\nExample 1:\n\n```\n\n**Input:** numbers = [2,7,11,15], target = 9\n**Output:** [1,2]\n**Explanation:** The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].\n\n```\n\nExample 2:\n\n```\n\n**Input:** numbers = [2,3,4], target = 6\n**Output:** [1,3]\n**Explanation:** The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We return [1, 3].\n\n```\n\nExample 3:\n\n```\n\n**Input:** numbers = [-1,0], target = -1\n**Output:** [1,2]\n**Explanation:** The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].\n\n```\n\n\u00a0\n\n**Constraints:**\n\n\t\n* `2 4`\n\t\n* `-1000",
+  "starter_code": "class Solution:\n    def twoSum(self, numbers: list[int], target: int) -> list[int]:\n        ",
+  "class_name": "Solution",
+  "method_name": "twoSum",
+  "sample_test_case": "[2,7,11,15]\n9",
+  "example_testcases": [
+    "[2,7,11,15]\n9",
+    "[2,3,4]\n6",
+    "[-1,0]\n-1"
+  ],
+  "meta_data": "{\r\n  \"name\": \"twoSum\",\r\n  \"params\": [\r\n    {\r\n      \"name\": \"numbers\",\r\n      \"type\": \"integer[]\"\r\n    },\r\n    {\r\n      \"name\": \"target\",\r\n      \"type\": \"integer\"\r\n    }\r\n  ],\r\n  \"return\": {\r\n    \"type\": \"integer[]\"\r\n  }\r\n}"
+}
